@@ -1,11 +1,16 @@
 body {
+    padding: 0;
+    margin: 0;
+    position: relative;
+
+}
+#home {
     height: 100vh;
     background-image: url(../img/vacation.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    position: relative;
-    padding: 0;
-    margin: 0;
+    position: absolute;
+    width: 100%;
 }
 
 h1 {
@@ -28,7 +33,7 @@ ul {
     position: relative;
     top: 0;
     text-align: right;
-
+    margin: 0;
 }
 
 li {
@@ -41,4 +46,10 @@ a {
     color: white;
     text-decoration: none;
     padding-right: 30px;
+}
+
+#about {
+    position: absolute;
+    height: 100vh;
+    background-color: gray;
 }
